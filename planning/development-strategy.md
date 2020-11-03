@@ -56,5 +56,7 @@ This will be developed on a particular branch and later on merge it to master br
 assigned to `Chyngyz`
 
 ---
+## 2. Publishing the website
+After making sure that everything is correctly done we can publish our website
 
 
