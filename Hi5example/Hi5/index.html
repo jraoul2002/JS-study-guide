@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hi5 Javascript Tutorial</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./CSS/StylesHeaderFooter.css">
+<script>
+function load_examples() {
+     document.getElementById("loadContent").innerHTML='<object type="text/html" data="examples.html" style="width:100%; height:100%"></object>';
+}
+</script>
+
+</head>
+<body>
+
+<div class="topdiv">
+<h1>Hi5 Javascript Tutorial</h1>
+<div id="searchbar" name="searchbar">
+<input type="text" placeholder="Search..">
+</div>
+</div>
+
+<div class="navbar">
+
+  <div class="dropdown">
+    <button class="dropbtn">Javascript Basic 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">JS Basic 1</a>
+      <a href="#">JS Basic 2</a>
+      <a href="#">JS Basic 3</a>
+    </div>
+  </div> 
+  
+  <div class="dropdown">
+    <button class="dropbtn">Javascript Advanced
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">JS Advanced 1</a>
+      <a href="#">JS Advanced 2</a>
+      <a href="#">JS Advanced 3</a>
+    </div>
+  </div> 
+  
+  <div class="dropdown">
+    <button class="dropbtn" onclick="load_examples()">Examples
+    </button>
+  </div>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Exercises
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Exercises 1</a>
+      <a href="#">Exercises 2</a>
+      <a href="#">Exercises 3</a>
+    </div>
+  </div> 
+</div>
+<div class="loadContent" id="loadContent">
+<div class="footer"> 
+  <img src="./img/footerImg.jpg" alt="footerImage">
+</div>
+</body>
+</html>
